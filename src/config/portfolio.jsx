@@ -65,7 +65,7 @@ export const portfolio = {
       title: "Back-end Stack",
       subtitle: (
         <>
-          Java, Python, SQL <br /> & Desenvolvimento de APIs
+          Java, Python, SQL, Spring Boot, <br />Git, Docker & Desenvolvimento de APIs
         </>
       ),
       Icon: SiAltiumdesigner,
@@ -265,7 +265,7 @@ export const portfolio = {
   },
 
   footer: {
-    text: "Desenvolvido por",
+    text: "Desenvolvido por ",
     developerName: "Hérik Fernandes",
   }
 };
