@@ -24,7 +24,7 @@ export const portfolio = {
   fullName: "Hérik Fernandes dos Santos", // Usado para curriculo
   headline: {
     fWord: "Desenvolvedor",
-    lWord: "Backend",
+    lWord: "Back-end",
   },
   heroDescription: "Estudante de Desenvolvimento de Software com foco em Java e Python. Apaixonado por tecnologia, arquitetura de sistemas e criação de soluções que geram valor para pessoas e empresas.",
   
@@ -55,7 +55,7 @@ export const portfolio = {
   ],
 
   stats: [
-    { count: "", label: "PROJETO ACADÊMICOS" },
+    { count: "", label: "PROJETOS ACADÊMICOS" },
     { count: "", label: "ANOS ESTUDANDO TECNOLOGIA" },
     { count: "", label: "FOCO EM EVOLUÇÃO" },
   ],
