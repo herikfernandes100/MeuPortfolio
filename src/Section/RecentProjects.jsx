@@ -16,7 +16,7 @@ const RecentProjects = React.forwardRef(function RecentProjects(props, ref) {
   return (
     <section ref={ref} data-name="RecentProjects" className="scroll-mt-28 flex flex-col gap-10">
       <div>
-        <Heading FWord="RECENT" LWord="PROJECTS" />
+        <Heading FWord="PROJETOS" LWord="RECENTES" />
       </div>
 
       <div className="flex flex-col gap-2 relative stagger-reveal">

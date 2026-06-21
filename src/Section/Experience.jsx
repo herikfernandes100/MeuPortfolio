@@ -7,7 +7,7 @@ const Experience = React.forwardRef(function Experience(props, ref) {
   return (
     <section ref={ref} data-name="Experience" className="scroll-mt-28">
       <div>
-        <Heading FWord="RELEVANT" LWord="EXPERIENCE" />
+        <Heading FWord="EXPERIÊNCIAS" LWord="RELEVANTES" />
       </div>
       <div className="mt-10 stagger-reveal">
         {portfolio.experience.map((exp, i) => (
