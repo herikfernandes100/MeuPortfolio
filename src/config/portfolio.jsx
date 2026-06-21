@@ -1,4 +1,5 @@
 import React from "react";
+import { SiPython } from "react-icons/si";
 import {
   FaGithub,
   FaReact,
@@ -19,52 +20,52 @@ import {
 } from "react-icons/si";
 
 export const portfolio = {
-  name: "Abdullah",
-  fullName: "Muhammad Abdullah", // Used for the document title
+  name: "Hérik", // Usado para saudação
+  fullName: "Hérik Fernandes dos Santos", // Usado para curriculo
   headline: {
-    fWord: "SOFTWARE",
-    lWord: "ENGINEER",
+    fWord: "Desenvolvedor",
+    lWord: "Backend",
   },
-  heroDescription: "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.",
+  heroDescription: "Estudante de Desenvolvimento de Software com foco em Java e Python. Apaixonado por tecnologia, arquitetura de sistemas e criação de soluções que geram valor para pessoas e empresas.",
   
   sidebar: {
     avatarUrl: "Media.jpg",
     bio: (
       <>
-        A <span className="text-white/80">Software Engineer</span> who has developed countless innovative solutions.
+        Estudante de <span className="text-white/80">Desenvolvimento de Software</span> , focado em Java, Python e desenvolvimento Backend.
       </>
     ),
-    cvUrl: "/Muhammad_Abdullah.pdf",
-    cvLabel: "Download CV",
+    cvUrl: "/Herik_Fernandes.pdf",
+    cvLabel: "Baixar Currículo",
     isAvailable: true,
-    availableText: "Available for Work",
+    availableText: "Disponível para oportunidades",
   },
 
   socialLinks: [
     {
       Icon: FaGithub,
-      href: "https://github.com/Abdullah-warraich-ch",
+      href: "https://github.com/herikfernandes100",
       hoverColor: "#e6edf3",
     },
     {
       Icon: CiLinkedin,
-      href: "https://www.linkedin.com/in/muhammad-abdullah-949b26195/",
+      href: "https://www.linkedin.com/in/herik-fernandes",
       hoverColor: "#0A66C2",
     },
   ],
 
   stats: [
-    { count: "1+", label: "YEARS OF EXPERIENCE" },
-    { count: "3+", label: "PROJECTS COMPLETED" },
-    { count: "2+", label: "CLIENTS WORLDWIDE" },
+    { count: "", label: "PROJETO ACADÊMICOS" },
+    { count: "", label: "ANOS ESTUDANDO TECNOLOGIA" },
+    { count: "", label: "FOCO EM EVOLUÇÃO" },
   ],
 
   stackCards: [
     {
-      title: "Design Stack",
+      title: "Back-end Stack",
       subtitle: (
         <>
-          Figma, PhotoShop <br /> & Canva Specialist
+          Java, Python, SQL <br /> & Desenvolvimento de APIs
         </>
       ),
       Icon: SiAltiumdesigner,
@@ -75,10 +76,10 @@ export const portfolio = {
       btnClass: "border-white/20 bg-white text-orange-600 hover:bg-orange-500 hover:text-white hover:border-orange-500"
     },
     {
-      title: "Development Stack",
+      title: "Ferramentas",
       subtitle: (
         <>
-          React, Next, Tailwind, <br /> Bootstrap & JQuery
+          Git, GitHub, Docker <br /> VSCode,  NetBeans e Banco de Dados
         </>
       ),
       Icon: FaCode,
@@ -91,23 +92,38 @@ export const portfolio = {
   ],
 
   skills: [
-    { logo: <FaReact />, title: "React JS", disc: "UI Library", color: "#61DAFB" },
-    { logo: <FaFigma />, title: "Figma", disc: "Design Tool", color: "#F24E1E" },
-    { logo: <RiTailwindCssFill />, title: "TailWind", disc: "Utility-First CSS", color: "#06B6D4" },
-    { logo: <RiNextjsLine />, title: "Next JS", disc: "React Framework", color: "#FFFFFF" },
-    { logo: <IoLogoJavascript />, title: "JavaScript", disc: "Client-side scripting", color: "#F7DF1E" },
-    { logo: <FaGithub />, title: "Github", disc: "Code collaboration", color: "#E6EDF3" },
-    { logo: <FaBootstrap />, title: "BootStrap", disc: "CSS Framework", color: "#7952B3" },
-    { logo: <IoLogoCss3 />, title: "CSS", disc: "Responsive styling", color: "#264DE4" },
+    { logo: <FaGithub />, title: "GitHub", disc: "Versionamento", color: "#E6EDF3" },
+    { logo: <FaCode />, title: "Java", disc: "Back-end", color: "#F89820" },
+    { logo: <SiPython />, title: "Python", disc: "Desenvolvimento", color: "#3776AB" },
+    { logo: <FaCode />, title: "SQL", disc: "Banco de Dados", color: "#336791" },
+    { logo: <FaCode />, title: "MySQL", disc: "Banco Relacional", color: "#00758F" },
+    { logo: <FaCode />, title: "Spring Boot", disc: "Framework Java", color: "#6DB33F" },
+    { logo: <FaCode />, title: "Docker", disc: "Containers", color: "#2496ED" },
+    { logo: <FaCode />, title: "Git", disc: "Controle de Versão", color: "#F05032" },
   ],
 
   projects: [
+
     {
       id: 1,
-      link: "https://rehloo.vercel.app/",
-      pic: "staysafe.png",
-      heading: "Reloo, Find A Hostel",
-      discr: "A Hostel Booking System",
+      link: "#",
+      pic: "servidor.png",
+      heading: "Servidor",
+      discr: "Projeto de infraestrutura observável com Go, Docker e stack Prometheus/Grafana, com automação via Ansible e monitoramento de métricas HTTP.",
+      tags: [
+        { name: "Go", icon: <FaCode color="#00ADD8" /> },
+        { name: "Docker", icon: <FaCode color="#2496ED" /> },
+        { name: "Prometheus", icon: <FaCode color="#E6522C" /> },
+        { name: "Grafana", icon: <FaCode color="#F46800" /> },
+        { name: "Ansible", icon: <FaCode color="#EE0000" /> },
+      ],
+    },
+    {
+      id: 2,
+      link: "#",
+      pic: "manutencao-preditiva.png",
+      heading: "Manutenção Preditiva",
+      discr: "Sistema de manutenção preditiva para indústria, utilizando machine learning para prever falhas em equipamentos.",
       tags: [
         { name: "Mongo", icon: <SiMongodb color="#47A248" /> },
         { name: "Nextjs", icon: <RiNextjsLine color="#FFFFFF" /> },
@@ -115,100 +131,141 @@ export const portfolio = {
       ],
     },
     {
-      id: 2,
-      link: "https://quiz-sooty-sigma-47.vercel.app/homepage",
-      pic: "project2.png",
-      heading: "Quiz App",
-      discr: "A Simple Quiz Application",
-      tags: [
-        { name: "Firebase", icon: <SiFirebase color="#FFCA28" /> },
-        { name: "React", icon: <FaReact color="#61DAFB" /> },
-        { name: "Tailwind", icon: <RiTailwindCssFill color="#06B6D4" /> },
-      ],
-    },
-    {
       id: 3,
-      link: "https://university-portal-rouge.vercel.app/admin",
-      pic: "image.png",
-      heading: "University Portal",
-      discr: "VU University Portal",
+      link: "#",
+      pic: "rbf-reconhecimento-padroes.png",
+      heading: "RBF em Reconhecimento de Padrões",
+      discr: "Rede neural RBF desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
-        { name: "TypeScript", icon: <SiTypescript color="#3178C6" /> },
-        { name: "React", icon: <FaReact color="#61DAFB" /> },
-        { name: "Firebase", icon: <SiFirebase color="#FFCA28" /> },
+        { name: "Python", icon: <SiPython color="#3776AB" /> },
+        { name: "Machine Learning", icon: <FaCode color="#888888" /> },
       ],
     },
     {
       id: 4,
-      link: "https://ramadan-time-two.vercel.app/",
-      pic: "ramadan.png",
-      heading: "Ramadan Time",
-      discr: "GPS-powered Ramadan companion app.",
+      link: "#",
+      pic: "pmc-reconhecimento-padroes.png",
+      heading: "PMC em Reconhecimento de Padrões",
+      discr: "Rede neural PMC desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
-        { name: "React", icon: <FaReact color="#61DAFB" /> },
-        { name: "Tailwind", icon: <RiTailwindCssFill color="#06B6D4" /> },
+        { name: "Python", icon: <SiPython color="#3776AB" /> },
+        { name: "Machine Learning", icon: <FaCode color="#888888" /> },
       ],
     },
     {
       id: 5,
-      link: "https://e-commerce-product-page-beta-sand.vercel.app/",
-      pic: "project1.png",
-      heading: "Simple E-Commerce Page",
-      discr: "Product Listing + Add to Cart",
+      link: "#",
+      pic: "pmc-aproximacao-funcoes.png",
+      heading: "PMC em Aproximação de Funções",
+      discr: "Rede neural PMC desenvolvida em Python para aproximação de funções, com implementação manual do modelo e foco em regressão de dados.",
       tags: [
-        { name: "React", icon: <FaReact color="#61DAFB" /> },
-        { name: "Tailwind", icon: <RiTailwindCssFill color="#06B6D4" /> },
-        { name: "JS", icon: <SiJavascript color="#F7DF1E" /> },
+        { name: "Python", icon: <SiPython color="#3776AB" /> },
+        { name: "Machine Learning", icon: <FaCode color="#888888" /> },
+      ],
+    },
+    {
+      id: 6,
+      link: "#",
+      pic: "adaline.png",
+      heading: "Adaline",
+      discr: "Rede neural Adaline desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
+      tags: [
+        { name: "Python", icon: <SiPython color="#3776AB" /> },
+        { name: "Machine Learning", icon: <FaCode color="#888888" /> },
+      ],
+    },
+    {
+      id: 7,
+      link: "#",
+      pic: "projeto4.png",
+      heading: "Perceptron",
+      discr: "Rede neural Perceptron desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
+      tags: [
+        { name: "Python", icon: <SiPython color="#3776AB" /> },
+        { name: "Machine Learning", icon: <FaCode color="#888888" /> },
+      ],
+    },
+    {
+      id: 8,
+      link: "#",
+      pic: "rouba-montes.png",
+      heading: "Rouba Montes",
+      discr: "Jogo de cartas desenvolvido em C, com uso de pilhas e listas duplamente encadeadas, permitindo múltiplos jogadores e mecânicas de compra, descarte, roubo e ranking final.",
+      tags: [
+        { name: "C", icon: <FaCode color="#A8B9CC" /> },
+      ],
+    },
+    {
+      id: 9,
+      link: "#",
+      pic: "ludo.png",
+      heading: "Ludo",
+      discr: "Implementação do clássico jogo Ludo em C, executado no terminal, com suporte para 2 a 4 jogadores e objetivo de levar todas as peças até a vitória.",
+      tags: [
+        { name: "C", icon: <FaCode color="#A8B9CC" /> },
+      ],
+    },
+    {
+      id: 10,
+      link: "#",
+      pic: "calculadora.png",
+      heading: "Calculadora",
+      discr: "Calculadora científica desenvolvida em Java Swing (GUI), com suporte a operações matemáticas básicas e avançadas.",
+      tags: [
+        { name: "Java", icon: <FaCode color="#F89820" /> },
+        { name: "Swing", icon: <FaCode color="#4B8BBE" /> },
+        { name: "GUI", icon: <FaCode color="#888888" /> },
       ],
     }
+    
   ],
 
   experience: [
     {
-      heading: "Junior Frontend Developer",
-      para: "Currently working as a Frontend Developer at a software house, contributing to the development of responsive user interfaces using HTML, CSS, JavaScript, React, and Next.js.",
-      date: "April, 2026 – Present",
+      heading: "SDR",
+      para: "Atuação na prospecção de clientes, qualificação de leads e desenvolvimento de relacionamento comercial com empresas de tecnologia.",
+      date: "Jun, 2026 – Atual",
       active: true,
     },
     {
-      heading: "React JS Intern",
-      para: "Previously worked as a Frontend Intern at a software house, contributing to the development of responsive user interfaces using HTML, CSS, JavaScript, and React.",
-      date: "Dec , 2025 – April, 2026",
+      heading: "Eletroeletrônico",
+      para: "Atuação em manutenção eletromecânica, automação industrial e análise de falhas, com experiência em CLPs, IHMs, painéis elétricos e sistemas industriais. Foco em eficiência operacional, resolução de problemas e melhoria contínua.",
+      date: "Ago, 2023 – Mar, 2026",
     },
     {
-      heading: "IT Intern",
-      para: "Worked as an IT Intern at StormFiber, assisting with daily IT operations including system setup, basic network support, and troubleshooting hardware and software issues.",
-      date: "June 15, 2025 – Dec 21, 2025",
+      heading: "Eletricista 2",
+      para: "Atuação em automação industrial e adequação de máquinas às normas NR10 e NR12, com experiência em CLPs, painéis elétricos e soluções voltadas à segurança e eficiência operacional.",
+      date: "Nov, 2021 – Mar, 2023",
     },
   ],
 
   contact: {
-    formspreeActionUrl: "https://formspree.io/f/xnjbebqr",
+    formspreeActionUrl: "https://formspree.io/f/xnjkakzk",
     title: {
-      fWord: "LET'S WORK",
-      lWord: "TOGETHER",
+      fWord: "VAMOS",
+      lWord: "CONVERSAR",
     },
     labels: {
-      name: "Your Full Name",
-      email: "Email Address",
-      subject: "Subject of Interest",
-      message: "Message",
-      submit: "Send Message",
+      name: "Seu Nome",
+      email: "Endereço de Email",
+      subject: "Assunto de Interesse",
+      message: "Mensagem",
+      submit: "Enviar Mensagem",
     },
     placeholders: {
-      name: "John Doe",
-      email: "john@example.com",
-      message: "Tell me about your project...",
+      name: "Fulano",
+      email: "endereço@exemplo.com",
+      message: "",
     },
     subjects: [
-      { value: "freelance", label: "Freelance Project" },
-      { value: "job", label: "Job Opportunity" },
-      { value: "hi", label: "Just Saying Hi!" },
+      { value: "job", label: "Oportunidade de Trabalho" },
+      { value: "project", label: "Projeto ou Parceria" },
+      { value: "contact", label: "Entrar em Contato" },
     ],
   },
 
   footer: {
-    text: "Developed by ",
-    developerName: "GTechSources",
+    text: "Desenvolvido por",
+    developerName: "Hérik Fernandes",
   }
 };
