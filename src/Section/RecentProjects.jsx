@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Heading from "../Components/Heading";
 import { IoIosArrowForward } from "react-icons/io";
 import RecentProjectCard from "../Components/RecentProjectCard";
-import { projects } from "../data/projects.jsx";
+import { portfolio } from "../config/portfolio";
 
 const RecentProjects = React.forwardRef(function RecentProjects(props, ref) {
   const [visibleCount, setVisibleCount] = useState(3);
@@ -11,7 +11,7 @@ const RecentProjects = React.forwardRef(function RecentProjects(props, ref) {
     setVisibleCount((prevCount) => prevCount + 3);
   };
 
-  const hasMore = visibleCount < projects.length;
+  const hasMore = visibleCount < portfolio.projects.length;
 
   return (
     <section ref={ref} data-name="RecentProjects" className="scroll-mt-28 flex flex-col gap-10">
@@ -23,7 +23,7 @@ const RecentProjects = React.forwardRef(function RecentProjects(props, ref) {
         {/* Vertical connector line */}
         <div className="absolute left-10 md:left-12 top-0 bottom-0 w-px bg-white/[0.03] z-0 hidden lg:block" />
 
-        {projects.slice(0, visibleCount).map((project) => (
+        {portfolio.projects.slice(0, visibleCount).map((project) => (
           <a
             key={project.id}
             href={project.link}

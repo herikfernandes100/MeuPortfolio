@@ -8,6 +8,7 @@ import Experience from "./Section/Experience";
 import Skills from "./Section/Skills";
 import Contact from "./Section/Contact";
 import Footer from "./Section/Footer";
+import { portfolio } from "./config/portfolio";
 
 function App() {
   const [isNavDocked, setIsNavDocked] = useState(false);
@@ -19,6 +20,10 @@ function App() {
   const contactRef = useRef(null);
   const scrollToSection = useCallback((sectionRef) => {
     sectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, []);
+
+  useEffect(() => {
+    document.title = portfolio.fullName || portfolio.name;
   }, []);
 
   useEffect(() => {
