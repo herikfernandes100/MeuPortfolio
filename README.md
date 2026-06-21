@@ -1,16 +1,70 @@
-# React + Vite
+# 💼 Portfólio - Hérik Fernandes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e trajetória como desenvolvedor de software.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Sobre o projeto
 
-## React Compiler
+O portfólio foi criado com o objetivo de centralizar meus projetos acadêmicos e pessoais, além de demonstrar minha evolução na área de desenvolvimento de software.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Aqui você encontrará experiências profissionais, projetos em diferentes tecnologias e minhas principais habilidades técnicas.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias utilizadas
+
+- React
+- JavaScript (ES6+)
+- React Icons
+- CSS / Tailwind (dependendo da versão)
+- Formspree (formulário de contato)
+
+---
+
+## 📂 Estrutura do projeto
+
+- `portfolio.js` → Dados principais do portfólio (skills, projetos, experiências, etc.)
+- Componentes React → Interface e renderização do conteúdo
+- Assets → Imagens dos projetos e avatar
+- Contact → Integração com Formspree para envio de mensagens
+
+---
+
+## 📌 Seções do portfólio
+
+- Sobre mim
+- Skills técnicas
+- Projetos
+- Experiência profissional
+- Contato
+
+---
+
+## 📸 Projetos em destaque
+
+- Sistema de infraestrutura observável com Go, Docker, Prometheus e Grafana
+- Rede neural RBF em Python para reconhecimento de padrões
+- Redes neurais (PMC, Perceptron, Adaline) em Python
+- Jogos em C (Ludo e jogo de cartas)
+- Calculadora científica em Java Swing
+
+---
+
+## 📫 Contato
+
+- GitHub: [Hérik Fernandes](https://github.com/herikfernandes100)
+- LinkedIn: [Meu LinkedIn](https://www.linkedin.com/in/herik-fernandes)
+- Email: Disponível via formulário no portfólio
+
+---
+
+## 📄 Observações
+
+Este projeto está em constante evolução, conforme avanço nos estudos e desenvolvimento de novos projetos.
+
+---
+
+## ⚡ Autor
+
+Desenvolvido por **Hérik Fernandes**

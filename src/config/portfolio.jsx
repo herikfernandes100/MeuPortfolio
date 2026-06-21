@@ -65,7 +65,7 @@ export const portfolio = {
       title: "Back-end Stack",
       subtitle: (
         <>
-          Java, Python, SQL, Spring Boot, <br />Git, Docker & Desenvolvimento de APIs
+          Java, Python, SQL, Spring Boot, Git, Docker & <br />Desenvolvimento de APIs
         </>
       ),
       Icon: SiAltiumdesigner,
