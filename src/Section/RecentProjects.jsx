@@ -52,7 +52,7 @@ const RecentProjects = React.forwardRef(function RecentProjects(props, ref) {
             className="group relative px-8 py-3 rounded-full bg-white/5 border border-white/10 text-white font-bold tracking-widest uppercase text-xs overflow-hidden transition-all duration-500 hover:border-orange-500/50 hover:shadow-[0_0_30px_rgba(249,115,22,0.15)] active:scale-95"
           >
             <span className="relative z-10 flex items-center gap-2">
-              View All Projects
+              Ver Mais
               <IoIosArrowForward className="transition-transform duration-500 group-hover:translate-x-1" />
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-orange-500/0 via-orange-500/10 to-orange-500/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
