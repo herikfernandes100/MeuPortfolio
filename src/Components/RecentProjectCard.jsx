@@ -54,7 +54,7 @@ function RecentProjectCard({ pic, heading, discr, tags = [] }) {
       {/* Interactive Action Side */}
       <div className="sm:ml-auto flex items-center gap-4 relative z-10 w-full sm:w-auto justify-end sm:justify-start">
         <div className="hidden lg:flex items-center gap-2 px-4 py-2 rounded-full border border-white/5 bg-white/5 backdrop-blur-sm opacity-0 translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 delay-100">
-          <span className="text-white text-xs font-bold uppercase tracking-widest">View Demo</span>
+          <span className="text-white text-xs font-bold uppercase tracking-widest">GitHub</span>
           <IoIosArrowForward className="text-orange-500" size={16} />
         </div>
 

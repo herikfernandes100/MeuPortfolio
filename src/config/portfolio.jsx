@@ -26,19 +26,19 @@ export const portfolio = {
     fWord: "Desenvolvedor",
     lWord: "Back-end",
   },
-  heroDescription: "Estudante de Desenvolvimento de Software com foco em Java e Python. Apaixonado por tecnologia, arquitetura de sistemas e criação de soluções que geram valor para pessoas e empresas.",
+  heroDescription: "Estudante de Engenharia da Computação com foco em Java e Python. Apaixonado por tecnologia, arquitetura de sistemas e criação de soluções que geram valor para pessoas e empresas.",
   
   sidebar: {
-    avatarUrl: "Media.jpg",
+    avatarUrl: "Foto.JPEG",
     bio: (
       <>
-        Estudante de <span className="text-white/80">Desenvolvimento de Software</span> , focado em Java, Python e desenvolvimento Backend.
+        Estudante de <span className="text-white/80">Engenharia da Computação</span> , focado em Java, Python e desenvolvimento Backend.
       </>
     ),
     cvUrl: "/Herik_Santos.pdf",
     cvLabel: "Baixar Currículo",
-    isAvailable: true,
-    availableText: "Disponível para oportunidades",
+    isAvailable: false,
+    availableText: "Dispónivel para oportunidades",
   },
 
   socialLinks: [
@@ -106,7 +106,7 @@ export const portfolio = {
 
     {
       id: 1,
-      link: "#",
+      link: "https://github.com/herikfernandes100/http-server-projeto-korp",
       pic: "servidor.png",
       heading: "Servidor",
       discr: "Projeto de infraestrutura observável com Go, Docker e stack Prometheus/Grafana, com automação via Ansible e monitoramento de métricas HTTP.",
@@ -120,7 +120,7 @@ export const portfolio = {
     },
     {
       id: 2,
-      link: "#",
+      link: "https://github.com/herikfernandes100/ManutencaoPreditiva",
       pic: "manutencao-preditiva.png",
       heading: "Manutenção Preditiva",
       discr: "Sistema de manutenção preditiva para indústria, utilizando machine learning para prever falhas em equipamentos.",
@@ -132,7 +132,7 @@ export const portfolio = {
     },
     {
       id: 3,
-      link: "#",
+      link: "https://github.com/herikfernandes100/RBF_reconhecimento_padroes",
       pic: "rbf-reconhecimento-padroes.png",
       heading: "RBF em Reconhecimento de Padrões",
       discr: "Rede neural RBF desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
@@ -143,7 +143,7 @@ export const portfolio = {
     },
     {
       id: 4,
-      link: "#",
+      link: "https://github.com/herikfernandes100/PMC_reconhecimento_padroes",
       pic: "pmc-reconhecimento-padroes.png",
       heading: "PMC em Reconhecimento de Padrões",
       discr: "Rede neural PMC desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
@@ -154,7 +154,7 @@ export const portfolio = {
     },
     {
       id: 5,
-      link: "#",
+      link: "https://github.com/herikfernandes100/PMC_aproximacao_funcoes",
       pic: "pmc-aproximacao-funcoes.png",
       heading: "PMC em Aproximação de Funções",
       discr: "Rede neural PMC desenvolvida em Python para aproximação de funções, com implementação manual do modelo e foco em regressão de dados.",
@@ -165,7 +165,7 @@ export const portfolio = {
     },
     {
       id: 6,
-      link: "#",
+      link: "https://github.com/herikfernandes100/Adaline",
       pic: "adaline.png",
       heading: "Adaline",
       discr: "Rede neural Adaline desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
@@ -176,7 +176,7 @@ export const portfolio = {
     },
     {
       id: 7,
-      link: "#",
+      link: "https://github.com/herikfernandes100/Perceptron",
       pic: "projeto4.png",
       heading: "Perceptron",
       discr: "Rede neural Perceptron desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
@@ -187,7 +187,7 @@ export const portfolio = {
     },
     {
       id: 8,
-      link: "#",
+      link: "https://github.com/herikfernandes100/Rouba-Montes",
       pic: "rouba-montes.png",
       heading: "Rouba Montes",
       discr: "Jogo de cartas desenvolvido em C, com uso de pilhas e listas duplamente encadeadas, permitindo múltiplos jogadores e mecânicas de compra, descarte, roubo e ranking final.",
@@ -197,7 +197,7 @@ export const portfolio = {
     },
     {
       id: 9,
-      link: "#",
+      link: "https://github.com/herikfernandes100/Ludo",
       pic: "ludo.png",
       heading: "Ludo",
       discr: "Implementação do clássico jogo Ludo em C, executado no terminal, com suporte para 2 a 4 jogadores e objetivo de levar todas as peças até a vitória.",
@@ -207,13 +207,25 @@ export const portfolio = {
     },
     {
       id: 10,
-      link: "#",
+      link: "https://github.com/herikfernandes100/Calculadora",
       pic: "calculadora.png",
       heading: "Calculadora",
       discr: "Calculadora científica desenvolvida em Java Swing (GUI), com suporte a operações matemáticas básicas e avançadas.",
       tags: [
         { name: "Java", icon: <FaCode color="#F89820" /> },
         { name: "Swing", icon: <FaCode color="#4B8BBE" /> },
+        { name: "GUI", icon: <FaCode color="#888888" /> },
+      ],
+    },
+    {
+      id: 11,
+      link: "https://github.com/herikfernandes100/MeuPortfolio",
+      pic: "portfolio.png",
+      heading: "Meu Portfolio",
+      discr: "Portfolio pessoal desenvolvido em React, com foco em apresentar projetos e experiências de forma atrativa.",
+      tags: [
+        { name: "React", icon: <FaCode color="#61DAFB" /> },
+        { name: "JavaScript", icon: <FaCode color="#F7DF1E" /> },
         { name: "GUI", icon: <FaCode color="#888888" /> },
       ],
     }
@@ -253,7 +265,7 @@ export const portfolio = {
       submit: "Enviar Mensagem",
     },
     placeholders: {
-      name: "Fulano",
+      name: "Exemplo",
       email: "endereço@exemplo.com",
       message: "",
     },
