@@ -4,6 +4,12 @@ Este é meu portfólio pessoal desenvolvido para apresentar meus projetos, habil
 
 ---
 
+## 🌐 Acesse o Portfólio
+
+👉 **[Portfolio](https://portfolio-herik-beta.vercel.app/)**
+
+---
+
 ## 🚀 Sobre o projeto
 
 O portfólio foi criado com o objetivo de centralizar meus projetos acadêmicos e pessoais, além de demonstrar minha evolução na área de desenvolvimento de software.
