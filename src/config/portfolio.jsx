@@ -35,7 +35,7 @@ export const portfolio = {
         Estudante de <span className="text-white/80">Desenvolvimento de Software</span> , focado em Java, Python e desenvolvimento Backend.
       </>
     ),
-    cvUrl: "/Herik_Fernandes.pdf",
+    cvUrl: "/Herik_Santos.pdf",
     cvLabel: "Baixar Currículo",
     isAvailable: true,
     availableText: "Disponível para oportunidades",
