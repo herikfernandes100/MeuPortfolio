@@ -39,7 +39,7 @@ const Intro = React.forwardRef(function Intro(props, ref) {
 
       {/* Skill cards */}
       {/* Stack Cards */}
-      <div className="flex gap-6 flex-col md:flex-row w-full stagger-reveal">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full stagger-reveal">
         {stackCards.map((card, i) => {
           const {
             title,
@@ -54,7 +54,7 @@ const Intro = React.forwardRef(function Intro(props, ref) {
           return (
             <div
               key={i}
-              className={`group relative overflow-hidden h-72 w-full ${widthClass} bg-[#1c1b19]/40 backdrop-blur-xl border border-white/[0.05] rounded-[2rem] p-10 flex flex-col justify-between transition-all duration-500 ${cardHoverClass}`}
+              className={`group relative overflow-hidden min-h-72 w-full min-w-0 bg-[#1c1b19]/40 backdrop-blur-xl border border-white/[0.05] rounded-[2rem] p-6 lg:p-8 flex flex-col justify-between transition-all duration-500 ${cardHoverClass}`}
             >
               <div className={`absolute -right-8 -top-8 w-40 h-40 rounded-full blur-[60px] transition-all duration-700 ${glowClass}`}></div>
 
@@ -64,7 +64,7 @@ const Intro = React.forwardRef(function Intro(props, ref) {
 
               <div className="relative z-10">
                 <h3 className="text-gray-500 text-sm font-semibold tracking-widest uppercase mb-2">{title}</h3>
-                <h1 className="text-white font-bold text-2xl leading-tight">
+                <h1 className="text-white font-bold text-xl lg:text-2xl leading-tight break-words">
                   {subtitle}
                 </h1>
               </div>
