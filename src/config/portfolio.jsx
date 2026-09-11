@@ -36,7 +36,7 @@ export const portfolio = {
     avatarUrl: avatarImage,
     bio: (
       <>
-        Estudante de <span className="text-white/80">Engenharia da Computação</span> , focado em Java, Desenvolvimento Backend e Web.
+        Estudante de <span className="text-white/80">Eng da Computação</span>, focado em Java e Web.
       </>
     ),
     cvUrl: "/Herik_Santos.pdf",
