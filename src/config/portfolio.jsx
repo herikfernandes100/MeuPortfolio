@@ -24,15 +24,15 @@ export const portfolio = {
   fullName: "Hérik Fernandes dos Santos", // Usado para curriculo
   headline: {
     fWord: "Desenvolvedor",
-    lWord: "Back-end",
+    lWord: "Backend",
   },
-  heroDescription: "Estudante de Engenharia da Computação com foco em Java e Python. Apaixonado por tecnologia, arquitetura de sistemas e criação de soluções que geram valor para pessoas e empresas.",
+  heroDescription: "Estudante de Engenharia da Computação com foco em Java, Desenvolvimento Backend e Web. Apaixonado por tecnologia, arquitetura de sistemas e criação de soluções que geram valor para pessoas e empresas.",
   
   sidebar: {
     avatarUrl: "Foto.JPEG",
     bio: (
       <>
-        Estudante de <span className="text-white/80">Engenharia da Computação</span> , focado em Java, Python e desenvolvimento Backend.
+        Estudante de <span className="text-white/80">Engenharia da Computação</span> , focado em Java, Desenvolvimento Backend e Web.
       </>
     ),
     cvUrl: "/Herik_Santos.pdf",
@@ -62,7 +62,7 @@ export const portfolio = {
 
   stackCards: [
     {
-      title: "Back-end Stack",
+      title: "Backend Stack",
       subtitle: (
         <>
           Java, Python, SQL, Spring Boot & Docker<br />
@@ -74,6 +74,20 @@ export const portfolio = {
       glowClass: "bg-orange-500/10 group-hover:bg-orange-500/20 animate-float",
       iconClass: "bg-orange-500/10 border-orange-500/20 text-orange-500 group-hover:bg-orange-500 group-hover:text-white",
       btnClass: "border-white/20 bg-white text-orange-600 hover:bg-orange-500 hover:text-white hover:border-orange-500"
+    },
+    {
+      title: "Frontend Stack",
+      subtitle: (
+        <>
+          HTML, CSS, JavaScript<br />
+        </>
+      ),
+      Icon: FaReact,
+      widthClass: "md:w-[45%]",
+      cardHoverClass: "hover:border-cyan-400/40 hover:bg-cyan-400/[0.03] hover:shadow-[0_20px_40px_-15px_rgba(34,211,238,0.15)]",
+      glowClass: "bg-cyan-400/10 group-hover:bg-cyan-400/20 animate-float",
+      iconClass: "bg-cyan-400/10 border-cyan-400/20 text-cyan-400 group-hover:bg-cyan-400 group-hover:text-slate-950",
+      btnClass: "border-white/20 bg-white text-cyan-600 hover:bg-cyan-400 hover:text-slate-950 hover:border-cyan-400"
     },
     {
       title: "Ferramentas",
@@ -107,7 +121,7 @@ export const portfolio = {
     {
       id: 1,
       link: "https://github.com/herikfernandes100/http-server-projeto-korp",
-      pic: "servidor.png",
+      pic: "../../public/servidor.png",
       heading: "Servidor",
       discr: "Projeto de infraestrutura observável com Go, Docker e stack Prometheus/Grafana, com automação via Ansible e monitoramento de métricas HTTP.",
       tags: [
@@ -121,7 +135,7 @@ export const portfolio = {
     {
       id: 2,
       link: "https://github.com/herikfernandes100/ManutencaoPreditiva",
-      pic: "manutencao-preditiva.png",
+      pic: "../../public/manutencao-preditiva.png",
       heading: "Manutenção Preditiva",
       discr: "Sistema de manutenção preditiva para indústria, utilizando machine learning para prever falhas em equipamentos.",
       tags: [
@@ -133,7 +147,7 @@ export const portfolio = {
     {
       id: 3,
       link: "https://github.com/herikfernandes100/RBF_reconhecimento_padroes",
-      pic: "rbf-reconhecimento-padroes.png",
+      pic: "../../public/rbf-reconhecimento-padroes.png",
       heading: "RBF em Reconhecimento de Padrões",
       discr: "Rede neural RBF desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -144,7 +158,7 @@ export const portfolio = {
     {
       id: 4,
       link: "https://github.com/herikfernandes100/PMC_reconhecimento_padroes",
-      pic: "pmc-reconhecimento-padroes.png",
+      pic: "../../public/pmc-reconhecimento-padroes.png",
       heading: "PMC em Reconhecimento de Padrões",
       discr: "Rede neural PMC desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -155,7 +169,7 @@ export const portfolio = {
     {
       id: 5,
       link: "https://github.com/herikfernandes100/PMC_aproximacao_funcoes",
-      pic: "pmc-aproximacao-funcoes.png",
+      pic: "../../public/pmc-aproximacao-funcoes.png",
       heading: "PMC em Aproximação de Funções",
       discr: "Rede neural PMC desenvolvida em Python para aproximação de funções, com implementação manual do modelo e foco em regressão de dados.",
       tags: [
@@ -166,7 +180,7 @@ export const portfolio = {
     {
       id: 6,
       link: "https://github.com/herikfernandes100/Adaline",
-      pic: "adaline.png",
+      pic: "../../public/adaline.png",
       heading: "Adaline",
       discr: "Rede neural Adaline desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -177,7 +191,7 @@ export const portfolio = {
     {
       id: 7,
       link: "https://github.com/herikfernandes100/Perceptron",
-      pic: "projeto4.png",
+      pic: "../../public/perceptron.png",
       heading: "Perceptron",
       discr: "Rede neural Perceptron desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -188,7 +202,7 @@ export const portfolio = {
     {
       id: 8,
       link: "https://github.com/herikfernandes100/Rouba-Montes",
-      pic: "rouba-montes.png",
+      pic: "../../public/rouba-montes.png",
       heading: "Rouba Montes",
       discr: "Jogo de cartas desenvolvido em C, com uso de pilhas e listas duplamente encadeadas, permitindo múltiplos jogadores e mecânicas de compra, descarte, roubo e ranking final.",
       tags: [
@@ -198,7 +212,7 @@ export const portfolio = {
     {
       id: 9,
       link: "https://github.com/herikfernandes100/Ludo",
-      pic: "ludo.png",
+      pic: "../../public/ludo.png",
       heading: "Ludo",
       discr: "Implementação do clássico jogo Ludo em C, executado no terminal, com suporte para 2 a 4 jogadores e objetivo de levar todas as peças até a vitória.",
       tags: [
@@ -208,7 +222,7 @@ export const portfolio = {
     {
       id: 10,
       link: "https://github.com/herikfernandes100/Calculadora",
-      pic: "calculadora.png",
+      pic: "../../public/calculadora.png",
       heading: "Calculadora",
       discr: "Calculadora científica desenvolvida em Java Swing (GUI), com suporte a operações matemáticas básicas e avançadas.",
       tags: [
@@ -220,7 +234,7 @@ export const portfolio = {
     {
       id: 11,
       link: "https://github.com/herikfernandes100/MeuPortfolio",
-      pic: "portfolio.png",
+      pic: "../../public/portfolio.png",
       heading: "Meu Portfolio",
       discr: "Portfolio pessoal desenvolvido em React, com foco em apresentar projetos e experiências de forma atrativa.",
       tags: [
@@ -234,9 +248,9 @@ export const portfolio = {
 
   experience: [
     {
-      heading: "SDR",
-      para: "Atuação na prospecção de clientes, qualificação de leads e desenvolvimento de relacionamento comercial com empresas de tecnologia.",
-      date: "Jun, 2026 – Atual",
+      heading: "Eletricista",
+      para: "Atuação em manutenção elétrica e automação de usinas fotovoltaicas, focando em diagnóstico de falhas, monitoramento remoto via SCADA e conformidade com normas de segurança para assegurar a máxima eficiência operacional.",
+      date: "Ago, 2026 – Atual",
       active: true,
     },
     {
