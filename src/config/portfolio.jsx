@@ -120,7 +120,7 @@ export const portfolio = {
     {
       id: 1,
       link: "https://github.com/herikfernandes100/http-server-projeto-korp",
-      pic: "../../public/servidor.png",
+      pic: "../assets/servidor.png",
       heading: "Servidor",
       discr: "Projeto de infraestrutura observável com Go, Docker e stack Prometheus/Grafana, com automação via Ansible e monitoramento de métricas HTTP.",
       tags: [
@@ -134,7 +134,7 @@ export const portfolio = {
     {
       id: 2,
       link: "https://github.com/herikfernandes100/ManutencaoPreditiva",
-      pic: "../../public/manutencao-preditiva.png",
+      pic: "../assets/manutencao-preditiva.png",
       heading: "Manutenção Preditiva",
       discr: "Sistema de manutenção preditiva para indústria, utilizando machine learning para prever falhas em equipamentos.",
       tags: [
@@ -146,7 +146,7 @@ export const portfolio = {
     {
       id: 3,
       link: "https://github.com/herikfernandes100/RBF_reconhecimento_padroes",
-      pic: "../../public/rbf-reconhecimento-padroes.png",
+      pic: "../assets/rbf-reconhecimento-padroes.png",
       heading: "RBF em Reconhecimento de Padrões",
       discr: "Rede neural RBF desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -157,7 +157,7 @@ export const portfolio = {
     {
       id: 4,
       link: "https://github.com/herikfernandes100/PMC_reconhecimento_padroes",
-      pic: "../../public/pmc-reconhecimento-padroes.png",
+      pic: "../assets/pmc-reconhecimento-padroes.png",
       heading: "PMC em Reconhecimento de Padrões",
       discr: "Rede neural PMC desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -168,7 +168,7 @@ export const portfolio = {
     {
       id: 5,
       link: "https://github.com/herikfernandes100/PMC_aproximacao_funcoes",
-      pic: "../../public/pmc-aproximacao-funcoes.png",
+      pic: "../assets/pmc-aproximacao-funcoes.png",
       heading: "PMC em Aproximação de Funções",
       discr: "Rede neural PMC desenvolvida em Python para aproximação de funções, com implementação manual do modelo e foco em regressão de dados.",
       tags: [
@@ -179,7 +179,7 @@ export const portfolio = {
     {
       id: 6,
       link: "https://github.com/herikfernandes100/Adaline",
-      pic: "../../public/adaline.png",
+      pic: "../assets/adaline.png",
       heading: "Adaline",
       discr: "Rede neural Adaline desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -190,7 +190,7 @@ export const portfolio = {
     {
       id: 7,
       link: "https://github.com/herikfernandes100/Perceptron",
-      pic: "../../public/perceptron.png",
+      pic: "../assets/perceptron.png",
       heading: "Perceptron",
       discr: "Rede neural Perceptron desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -201,7 +201,7 @@ export const portfolio = {
     {
       id: 8,
       link: "https://github.com/herikfernandes100/Rouba-Montes",
-      pic: "../../public/rouba-montes.png",
+      pic: "../assets/rouba-montes.png",
       heading: "Rouba Montes",
       discr: "Jogo de cartas desenvolvido em C, com uso de pilhas e listas duplamente encadeadas, permitindo múltiplos jogadores e mecânicas de compra, descarte, roubo e ranking final.",
       tags: [
@@ -211,7 +211,7 @@ export const portfolio = {
     {
       id: 9,
       link: "https://github.com/herikfernandes100/Ludo",
-      pic: "../../public/ludo.png",
+      pic: "../assets/ludo.png",
       heading: "Ludo",
       discr: "Implementação do clássico jogo Ludo em C, executado no terminal, com suporte para 2 a 4 jogadores e objetivo de levar todas as peças até a vitória.",
       tags: [
@@ -221,7 +221,7 @@ export const portfolio = {
     {
       id: 10,
       link: "https://github.com/herikfernandes100/Calculadora",
-      pic: "../../public/calculadora.png",
+      pic: "../assets/calculadora.png",
       heading: "Calculadora",
       discr: "Calculadora científica desenvolvida em Java Swing (GUI), com suporte a operações matemáticas básicas e avançadas.",
       tags: [
@@ -233,7 +233,7 @@ export const portfolio = {
     {
       id: 11,
       link: "https://github.com/herikfernandes100/MeuPortfolio",
-      pic: "../../public/portfolio.png",
+      pic: "../assets/portfolio.png",
       heading: "Meu Portfolio",
       discr: "Portfolio pessoal desenvolvido em React, com foco em apresentar projetos e experiências de forma atrativa.",
       tags: [
