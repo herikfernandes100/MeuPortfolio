@@ -24,7 +24,6 @@ export const portfolio = {
   fullName: "Hérik Fernandes dos Santos", // Usado para curriculo
   headline: {
     fWord: "Desenvolvedor",
-    lWord: "Backend",
   },
   heroDescription: "Estudante de Engenharia da Computação com foco em Java, Desenvolvimento Backend e Web. Apaixonado por tecnologia, arquitetura de sistemas e criação de soluções que geram valor para pessoas e empresas.",
   
@@ -93,7 +92,7 @@ export const portfolio = {
       title: "Ferramentas",
       subtitle: (
         <>
-          Git, GitHub, Docker, VSCode, <br />NetBeans & Banco de Dados
+          Git, GitHub, Docker, VSCode, NetBeans <br/>& Banco de Dados
         </>
       ),
       Icon: FaCode,
@@ -107,7 +106,7 @@ export const portfolio = {
 
   skills: [
     { logo: <FaGithub />, title: "GitHub", disc: "Versionamento", color: "#E6EDF3" },
-    { logo: <FaCode />, title: "Java", disc: "Back-end", color: "#F89820" },
+    { logo: <FaCode />, title: "Java", disc: "Backend", color: "#F89820" },
     { logo: <SiPython />, title: "Python", disc: "Desenvolvimento", color: "#3776AB" },
     { logo: <FaCode />, title: "SQL", disc: "Banco de Dados", color: "#336791" },
     { logo: <FaCode />, title: "MySQL", disc: "Banco Relacional", color: "#00758F" },
