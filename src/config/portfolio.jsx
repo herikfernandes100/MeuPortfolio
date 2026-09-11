@@ -24,9 +24,9 @@ import ludoImage from "../assets/ludo.png";
 import portfolioImage from "../assets/portfolio.png";
 import roubaMontesImage from "../assets/rouba-montes.png";
 import manutencaoPreditivaImage from "../assets/manutencao-preditiva.png";
-import rbfImage from "../assets/rbf.png";
-import pmcReconhecimentoPadroesImage from "../assets/pmc-reconhecimento-padroes.png";
-import pmcAproximacaoFuncoesImage from "../assets/pmc-aproximacao-funcoes.png";
+import rbfImage from "../assets/loading.jpg";
+import pmcReconhecimentoPadroesImage from "../assets/loading.jpg";
+import pmcAproximacaoFuncoesImage from "../assets/loading.jpg";
 import adalineImage from "../assets/adaline.png";
 import perceptronImage from "../assets/perceptron.png";
 
