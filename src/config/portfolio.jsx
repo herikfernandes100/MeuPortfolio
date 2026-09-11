@@ -19,6 +19,7 @@ import {
   SiMongodb,
 } from "react-icons/si";
 import avatarImage from "../assets/Foto.JPEG";
+import servidorImage from "../assets/servidor.png";
 import calculadoraImage from "../assets/calculadora.png";
 import ludoImage from "../assets/ludo.png";
 import portfolioImage from "../assets/portfolio.png";
