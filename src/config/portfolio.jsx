@@ -23,6 +23,12 @@ import calculadoraImage from "../assets/calculadora.png";
 import ludoImage from "../assets/ludo.png";
 import portfolioImage from "../assets/portfolio.png";
 import roubaMontesImage from "../assets/rouba-montes.png";
+import manutencaoPreditivaImage from "../assets/manutencao-preditiva.png";
+import rbfImage from "../assets/rbf.png";
+import pmcReconhecimentoPadroesImage from "../assets/pmc-reconhecimento-padroes.png";
+import pmcAproximacaoFuncoesImage from "../assets/pmc-aproximacao-funcoes.png";
+import adalineImage from "../assets/adaline.png";
+import perceptronImage from "../assets/perceptron.png";
 
 export const portfolio = {
   name: "Hérik", // Usado para saudação
@@ -125,7 +131,7 @@ export const portfolio = {
     {
       id: 1,
       link: "https://github.com/herikfernandes100/http-server-projeto-korp",
-      pic: portfolioImage,
+      pic: servidorImage,
       heading: "Servidor",
       discr: "Projeto de infraestrutura observável com Go, Docker e stack Prometheus/Grafana, com automação via Ansible e monitoramento de métricas HTTP.",
       tags: [
@@ -139,7 +145,7 @@ export const portfolio = {
     {
       id: 2,
       link: "https://github.com/herikfernandes100/ManutencaoPreditiva",
-      pic: portfolioImage,
+      pic: manutencaoPreditivaImage,
       heading: "Manutenção Preditiva",
       discr: "Sistema de manutenção preditiva para indústria, utilizando machine learning para prever falhas em equipamentos.",
       tags: [
@@ -151,7 +157,7 @@ export const portfolio = {
     {
       id: 3,
       link: "https://github.com/herikfernandes100/RBF_reconhecimento_padroes",
-      pic: portfolioImage,
+      pic: rbfImage,
       heading: "RBF em Reconhecimento de Padrões",
       discr: "Rede neural RBF desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -162,7 +168,7 @@ export const portfolio = {
     {
       id: 4,
       link: "https://github.com/herikfernandes100/PMC_reconhecimento_padroes",
-      pic: portfolioImage,
+      pic: pmcReconhecimentoPadroesImage,
       heading: "PMC em Reconhecimento de Padrões",
       discr: "Rede neural PMC desenvolvida em Python para reconhecimento de padrões, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -173,7 +179,7 @@ export const portfolio = {
     {
       id: 5,
       link: "https://github.com/herikfernandes100/PMC_aproximacao_funcoes",
-      pic: portfolioImage,
+      pic: pmcAproximacaoFuncoesImage,
       heading: "PMC em Aproximação de Funções",
       discr: "Rede neural PMC desenvolvida em Python para aproximação de funções, com implementação manual do modelo e foco em regressão de dados.",
       tags: [
@@ -184,7 +190,7 @@ export const portfolio = {
     {
       id: 6,
       link: "https://github.com/herikfernandes100/Adaline",
-      pic: portfolioImage,
+      pic: adalineImage,
       heading: "Adaline",
       discr: "Rede neural Adaline desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
@@ -195,7 +201,7 @@ export const portfolio = {
     {
       id: 7,
       link: "https://github.com/herikfernandes100/Perceptron",
-      pic: portfolioImage,
+      pic: perceptronImage,
       heading: "Perceptron",
       discr: "Rede neural Perceptron desenvolvida em Python, com implementação manual do modelo e foco em classificação de dados.",
       tags: [
